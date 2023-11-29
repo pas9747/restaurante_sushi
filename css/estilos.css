@@ -1,0 +1,1607 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Estilos para el header */
+.franja-superior {
+    background-color: #f2d9bb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px; 
+}
+
+.franja-superior i {
+    font-size: 15px;
+    color: #fd6850;
+    margin-right: 5px;
+}
+
+.franja-superior i:hover {
+    color: #fd6850;
+}
+
+.franja-superior p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #2e3732;
+}
+
+.franja-superior p:hover {
+    color: #fd6850;
+}
+
+.busqueda input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.redes-sociales i {
+    font-size: 15px;
+    color: #2e3732;
+    margin-left: 10px;
+}
+
+.redes-sociales i:hover {
+    color: #fd6850;
+}
+
+/* Estilos para el segundo header */
+.segundo-encabezado {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+.titulo-viva {
+    font-family: 'Literata', serif;
+    font-size: 24px;
+    color: #fd6850;
+}
+
+.barra-navegacion {
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+    background-color: white
+    
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    line-height: 21px;
+    text-align: left;
+   
+}
+ul li a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #2e3732;
+    margin-left: 50px;
+    text-decoration: none;
+    transition: color 0.5s;
+    transition: 0.5s;
+}
+ul li a:hover{
+    color: #fd6850;
+}
+ul li ul.dropdown{
+    min-width: 100%; 
+     display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+ul li:hover ul.dropdown{
+    display: block;	
+}
+ul li ul.dropdown li{
+    display: block;
+}
+
+/* Estilos contenido Nosotros */
+
+.nosotros-contenido {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.nosotros-barra-navegacion2 {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.nosotros-linea-inicio {
+    opacity: 10%;
+    height: 1px; 
+    color: #1b201d;
+    background-color: #1b201d;
+    margin-bottom: 0px;
+}
+
+.nosotros-menu-lista {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-top: -20px;
+
+}
+
+.nosotros-menu-item {
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.nosotros-item-home {
+    color: #fd9584;
+}
+
+.nosotros-item-home:hover {
+    color: #ce6758;
+}
+
+.nosotros-item-about {
+    color: #2e3732;
+}
+
+.nosotros-separador {
+    color: #2e3732;
+    font-weight: normal;
+}
+
+/* Estilos de la imagen grande */
+.nosotros-imagen-grande {
+    max-width: calc(100% - 200px);
+    display: block;
+    margin: 0 auto;
+    border-radius: 0px;
+    margin-top: 20px;
+    margin-bottom: 95px;
+}
+
+.nosotros-imagen-grande1 {
+    width: 100%;
+    border-radius: 0;
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+
+.nosotros-texto-centrado {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nosotros-texto-centrado {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nosotros-titulo-omakase {
+    color: #2e3732;
+    margin: 20px 0; 
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.nosotros-iconos-texto {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.nosotros-icono-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.nosotros-imagen-mediana {
+    width: 150px;
+    height: auto; 
+    margin-bottom: 10px;
+}
+
+.nosotros-texto-iconos {
+    font-family: 'Montserrat', sans-serif;
+    color: #2e3732;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el contenedor de logos */
+.nosotros-contenedor-logos {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.nosotros-logo-subcontenedor {
+    width: 100px;
+    height: 100px;
+    margin: 0 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.nosotros-logo-premio1 {
+    width: 100%;
+    height: 100%;
+    background-position: top left;
+    background-size: 167%;
+    background-image: url(../images/estrellas-michelin.jpg);
+    background-repeat: no-repeat;
+    background-position: -34px -33px;
+}
+
+.nosotros-logo-premio2 {
+    width: 100%;
+    height: 100%;
+    background-position: top left;
+    background-size: 200%;
+    background-image: url(../images/sol-reposol.jpg);
+    background-repeat: no-repeat;
+    background-position: -51px -23px;
+}
+
+/* Estilos de la cita del autor */
+.nosotros-cita-autor {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nosotros-cita-h3 {
+    color: #fd9584;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 19px;
+    margin-bottom: 80px;
+}
+
+/* Estilos de los iconos y texto */
+.nosotros-iconos-texto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.nosotros-imagen-mediana {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.nosotros-titulo-h3 {
+    color: #2e3732;
+    font-weight: bold;
+}
+
+.nosotros-texto-iconos {
+    flex: 1;
+    margin: 0 20px;
+    color: #2e3732;
+    line-height: 1.5;
+}
+
+.nosotros-texto-iconos:hover {
+    color: #fa977f;
+}
+
+/* Estilos del título "Delicias Japonesas" */
+.nosotros-titulo-delicias {
+    color: #2e3732;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+/* Estilos de los iconos y texto */
+.nosotros-contenedor-iconos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 80px;
+}
+
+.nosotros-iconos-texto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.nosotros-imagen-mediana {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.nosotros-texto-iconos2 {
+    flex: 0.8; 
+    margin: 0 30px; 
+    color: #2e3732;
+    line-height: 1.5;
+}
+
+.nosotros-texto-iconos:hover {
+    color: #fa977f;
+}
+
+/* Estilos del título "Nuestra entrega con Colombia" */
+.nosotros-titulo-colombia {
+    color: #fff2e6;
+    margin-top: 20px;
+}
+
+.nosotros-contenedor-imagen-texto {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.nosotros-texto-encima {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    padding: 325px; 
+    width: calc(100% - 30px); 
+    box-sizing: border-box; 
+}
+
+.nosotros-texto-parrafo-creador {
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+/* Estilos del texto */
+.nosotros-texto-parrafo2 {
+    color: #2e3732;
+    line-height: 1.5;
+}
+
+.nosotros-texto-parrafo1 {
+    color: #2e3732;
+    line-height: 1.5;
+    margin: 0 300px;
+    margin-bottom: 65px;
+}
+
+/* Estilos del título y subtitulo */
+.nosotros-titulo-equipo, .nosotros-subtitulo-texto-equipo {
+    color: #2e3732;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.nosotros-titulo-subtitulo {
+    margin-top: 20px;
+}
+
+/* Estilos de los iconos de comillas */
+.nosotros-columnas {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 110px;
+    margin-bottom: 80px;
+}
+
+.nosotros-columna {
+    flex-basis: 30%;
+    margin: 0 10px;
+}
+
+.nosotros-iconos-comillas {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    color: #2d856d;
+}
+
+.nosotros-texto-imagen {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.nosotros-texto-parrafo {
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.nosotros-imagen-pequeña {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.nosotros-nombre-empleado {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* Estilos de la parte final */
+.nosotros-imagen-texto {
+    display: flex;
+    align-items: bottom;
+    margin: 0 110px;
+}
+
+.nosotros-imagen-mediana {
+    flex: 1;
+    max-width: 50%;
+    margin-right: 10px;
+    border-radius: 0px;
+}
+
+.nosotros-texto-imagen {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.nosotros-titulo-partefinal {
+    color: #2e3732;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.nosotros-texto-parrafo-partefinal {
+    margin: 0;
+    line-height: 1.5;
+    text-align: left;
+    color: #2e3732;
+}
+
+.nosotros-titulo-h4 {
+    color: #2e3732;
+    font-weight: bold;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 29px;
+    font-weight: 300;
+    margin-top: 25px;
+}
+
+.nosotros-enlace-menu {
+    color: #2e3732;
+}
+
+.nosotros-color-munu {
+    color: #fa977f;
+}
+
+.nosotros-color-munu:hover {
+    color: #b9462a;
+    cursor: pointer; 
+}
+
+.nosotros-linea-final {
+    width: 80%;
+    margin: 100px auto 0;
+    opacity: 0.3;
+}
+
+/* Estilos contenido Reservas */
+
+.reservas-barra-navegacion2 {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.reservas-linea-inicio {
+    opacity: 10%;
+    height: 1px; 
+    color: #1b201d;
+    background-color: #1b201d;
+    margin-bottom: 0px;
+}
+
+.reservas-menu-lista {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-top: -20px;
+
+}
+
+.reservas-menu-item {
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.reservas-item-home {
+    color: #fd9584;
+}
+
+.reservas-item-home:hover {
+    color: #ce6758;
+}
+
+.reservas-item-about {
+    color: #2e3732;
+}
+
+.reservas-separador {
+    color: #2e3732;
+    font-weight: normal;
+}
+
+/* Estilos para el contenido de Reservas */
+.reservas-contenedor {
+    margin: 0 100px;
+  }
+  
+  .reservas-titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 29px;
+    font-weight: 500; 
+    color: #fb6950;
+    text-align: center;
+    margin: 0 30px 30px;
+  }
+  
+  .reservas-parrafo-descubre {
+    font-family: 'Montserrat', sans-serif;
+    color: #2e3732;
+    text-align: center;
+    margin-left: 200px; 
+    margin-right: 200px;
+  }
+  
+  .reservas-parrafo {
+    font-family: 'Montserrat', sans-serif;
+    color: #2e3732;
+    text-align: center;
+    margin: 0 30px 50px;
+  }
+  
+  .reservas-parrafo-libre {
+    font-family: 'Montserrat', sans-serif;
+    color: #2e3732;
+    text-align: center;
+    margin-left: 200px; 
+    margin-right: 200px; 
+    margin-bottom: 80px;
+  }  
+  
+  /* Estilos para las imágenes de las mesas */
+.reservas-mesas-completas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 300px);
+    gap: 20px;
+    margin-bottom: 20px; 
+  }
+
+  .reserva-mesa1 {
+    grid-column: span 1;
+    background-size: 150px auto; 
+    background-image: url("../images/mesa1-normal.png");
+    background-repeat: no-repeat; 
+    background-position: center;
+  }
+
+  .reservas-inputs {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto; 
+  }
+  
+  .reserva-mesa2 {
+    grid-column: span 2;
+    background-size: 380px auto; 
+    background-image: url("../images/mesa2-normal.png");
+    background-repeat: no-repeat; 
+    background-position: center;
+  }
+
+  .reserva-mesa3 {
+    grid-column: span 1;
+    background-size: 150px auto; 
+    background-image: url("../images/mesa3-normal.png");
+    background-repeat: no-repeat; 
+    background-position: center;
+  }
+
+  .reserva-mesa4 {
+    grid-column: span 1;
+    background-size: 250px auto; 
+    background-image: url("../images/mesa4-normal.png");
+    background-repeat: no-repeat; 
+    background-position: center;
+  }
+
+  .reserva-mesa5 {
+    grid-column: span 1;
+    background-size: 250px auto; 
+    background-image: url("../images/mesa5-normal.png");
+    background-repeat: no-repeat; 
+    background-position: center;
+  }
+
+  .reserva-mesa6 {
+    grid-column: span 2;
+    background-size: 380px auto; 
+    background-image: url("../images/mesa6-normal.png");
+    background-repeat: no-repeat; 
+    background-position: center;
+
+  }
+
+  .reserva-mesa7 {
+    grid-column: span 1;
+    background-size: 250px auto; 
+    background-image: url("../images/mesa7-normal.png");
+    background-repeat: no-repeat; 
+    background-position: center;
+
+  }
+
+  .reserva-mesa8 {
+    grid-column: span 1;
+    background-size: 250px auto; 
+    background-image: url("../images/mesa8-normal.png");
+    background-repeat: no-repeat; 
+    background-position: center;
+
+  }
+
+  .reserva-mesa9 {
+    grid-column: span 1;
+    background-size: 250px auto; 
+    background-image: url("../images/mesa9-normal.png");
+    background-repeat: no-repeat; 
+    background-position: center;
+
+  }
+
+  .reserva-mesa10 {
+    grid-column: span 1;
+    background-size: 250px auto; 
+    background-image: url("../images/mesa10-normal.png");
+    background-repeat: no-repeat; 
+    background-position: center;
+
+  }
+
+  .reserva-mesa1:hover {
+    background-image: url('../images/mesa1-naranja.png');
+  }
+  
+  .reserva-mesa2:hover {
+    background-image: url('../images/mesa2-naranja.png');
+  }
+  
+  .reserva-mesa3:hover {
+    background-image: url('../images/mesa3-naranja.png');
+  }
+  
+  .reserva-mesa4:hover {
+    background-image: url('../images/mesa4-naranja.png');
+  }
+  
+  .reserva-mesa5:hover {
+    background-image: url('../images/mesa5-naranja.png');
+  }
+  
+  .reserva-mesa6:hover {
+    background-image: url('../images/mesa6-naranja.png');
+  }
+  
+  .reserva-mesa7:hover {
+    background-image: url('../images/mesa7-naranja.png');
+  }
+  
+  .reserva-mesa8:hover {
+    background-image: url('../images/mesa8-naranja.png');
+  }
+  
+  .reserva-mesa9:hover {
+    background-image: url('../images/mesa9-naranja.png');
+  }
+  
+  .reserva-mesa10:hover {
+    background-image: url('../images/mesa10-naranja.png');
+  }
+  
+  
+  .reservas-parrafo-subtitulo {
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    color: #2e3732;
+    text-align: center;
+    margin-left: 200px; 
+    margin-right: 200px; 
+  }
+  
+  .reservas-inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  
+  .reservas-input {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .reservas-input label {
+    font-family: 'Montserrat', sans-serif;
+    color: #2e3732;
+  }
+
+.reservas-input input,.reservas-escribenos textarea {
+    border: 1px solid #e0e0e0;
+}
+
+  .reservas-input label:hover {
+    box-shadow: 0px 0px 5px #a1a2a1; 
+  }  
+  
+  .reservas-input input {
+    width: 100%;
+    padding: 18px; 
+    box-sizing: border-box;
+  }  
+ 
+.reservas-input input:focus,.reservas-escribenos textarea:focus {
+  box-shadow: 0 0 5px #a1a2a1; 
+  outline: none; 
+}
+
+.reservas-input label,.reservas-escribenos label {
+  transition: box-shadow 0.3s; 
+}
+
+.reservas-input input:focus + label,.reservas-escribenos textarea:focus + label {
+  box-shadow: 0 0 5px #a1a2a1; 
+}
+
+  .reservas-escribenos {
+    margin-bottom: 22px;
+    margin-left: 210px;
+    margin-right: 210px;
+    box-sizing: border-box;
+  }
+  
+  .reservas-escribenos label {
+    font-family: 'Montserrat', sans-serif;
+    color: #2e3732;
+  }
+  
+  .reservas-escribenos textarea {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .reservas-boton {
+    background-color: #f68670;
+    color: #2e3732;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 80px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    font-weight: bold;
+  }
+  
+  .reservas-boton:hover{
+    background-color: #74a39b;
+}
+
+/* Estilos del index */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home_section1{
+    background-image: url(../images/sushi_foto_home_opacidad.jpg);
+    min-height: 800px;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.home_contenedor{
+    width: 70%;
+    margin: auto;
+}
+.home_textos_foto{
+    padding: 200px;
+    text-align: center;
+    color: #ffffff;
+}
+.home_textos_foto h3{
+    font-family: 'Pacifico', cursive;
+    font-size: 28pt;
+    font-weight: 300;
+    color: rgb(171, 218, 205);
+}
+.home_textos_foto h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 55pt;
+    color: #F4D8BB;
+    padding: 16px, 0;
+}
+.home_textos_foto h4{
+    font-family: 'Literata', serif;
+    color: #ffffff;
+    width: 56%; 
+    margin: auto;
+    font-size: 20px;
+}
+.home_resaltado{
+    color: #F4D8BB;
+} 
+.home_textos_foto a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+}
+.home_boton{
+background-color:rgb(46, 133, 110);
+padding: 25px 0;
+width: 54%;
+margin: auto;
+border-radius: 3px;
+margin-top: 40px;
+overflow: hidden;
+}
+.home_boton:hover{
+    background-color:rgb(33, 100, 82);
+    transition: 0.2s;
+}
+/* 
+section2
+*/
+.home_section2 {
+    padding: 100px 0 100px;
+}
+.home_contenedor-tarjetas{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.home_tarjeta{
+    text-align: center;
+    width: 50%;
+}
+.home_tarjeta h5{
+    font-family: 'Literata', serif;
+    font-size: 15pt; 
+    color: rgb(251, 106, 80);
+    margin-bottom: 16px;
+}
+.home_tarjeta p{
+    font-family: 'Montserrat', sans-serif;
+    width: 80%; 
+    margin: auto;
+     
+}
+.home_foto1 {
+    height: 800px;
+    width: 33.3%;
+    background-size: cover;
+    overflow: hidden;
+}
+.home_section3{
+    padding-bottom: 400px;
+}
+.home_foto1 img{
+    height: 900px;
+}
+.home_foto1 img:hover{
+    filter: sepia(60%);
+    transition: 0.4s;
+}
+.home_foto2 {
+    height: 800px;
+    width: 33.3%;
+    background-size: cover;
+    text-align: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.home_foto2 img{
+    height: 900px;
+}
+.home_foto2 img:hover{
+    filter: sepia(60%);
+    transition: 0.4s;
+}
+.home_foto3 {
+    height: 800px;
+    width: 33.3%;
+    background-size: cover;
+    text-align: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.home_foto3 img{
+    height: 900px;
+}
+.home_foto3 img:hover{
+    filter: sepia(60%);
+    transition: 0.4s;
+}
+.home_contenedor_fila{
+    display: flex;
+    flex-direction: row;
+    margin-top: -400px;
+    position: relative;
+    
+}
+.home_contenedor_fila a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family:'Montserrat', sans-serif;
+    font-size: 36pt;
+    width: 33%;
+    margin: auto;
+    text-align: center;
+    font-weight: 800;
+}
+.home_tarjeta i {
+    font-size: 60px;
+    margin-bottom: 40px;
+    color:  rgb(251, 106, 80);
+}
+.home_tarjeta i:hover {
+    color:  rgb(174, 110, 99);
+    transition: 0.4s;
+}
+.home_section4{
+    background-image: url(../images/home_chef.jpg);
+    background-size: cover;
+    height: 600px;
+}
+.contenedor_columna {
+    width: 37%;
+    padding-top: 150px;
+}
+.contenedor_columna h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20pt;
+    margin-bottom: 40px;
+    margin-top: -50px;
+}
+.contenedor_columna p {
+    font-family: 'Montserrat', sans-serif;
+    line-height:2em;
+}
+.home_comillas h3 {
+    font-family:'Montserrat', sans-serif;
+    font-size: 50pt;
+    margin-top: -10px;
+    margin-right: 24px;
+    color: rgb(251, 106, 80);
+}
+.home_comillas {
+    display: flex;
+    flex-direction: row;
+    width: 130%;
+    margin-top: 20px;
+}
+.contenedor_columna h4 {
+    font-family: 'Literata', serif;
+    color: rgb(251, 106, 80);
+    line-height:2em;
+}
+.contenedor_columna a {
+    text-decoration: none;
+    color: rgb(251, 106, 80);
+    font-family:'Montserrat', sans-serif;
+}
+.home_section4 .home_contenedor{
+    padding-bottom: 150px;
+}
+.home_section5{
+    padding-top: 100px;
+    background-image: url(../images/foto_section5.jpg);
+    background-size: cover;
+    height: 400px;
+}
+.home_contenedor_section5{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin-left: 575px;
+}
+.home_contenedor_section5 h3{
+    font-family:'Montserrat', sans-serif;
+    color: #F4D8BB;
+    font-size: 18pt;
+    margin-bottom: 24px;
+}
+.home_contenedor_section5 p{
+    font-family:'Montserrat', sans-serif;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+.home_contenedor_section5 a{
+    font-family:'Montserrat', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 50px;
+    font-weight: 800;
+}
+.home_contenedor_section5 .home_boton{
+    background-color:rgb(46, 133, 110);
+    padding: 18px 0;
+    width: 24%;
+    margin: 0;
+    border-radius: 3px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.home_contenedor_section5 .home_boton:hover, .reservacion_boton:hover, .contactus_boton_enviar:hover{
+    background-color:rgb(33, 100, 82);
+    transition: 0.2s;
+}
+/* Estilos del contactus */
+.contactus_contenedor_mapa{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    height: 500px;
+}
+.contactus_contenedor_section1{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+}
+.contactus_home_slash{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.contactus_home_slash a{
+    font-family:'Montserrat', sans-serif;
+    color: rgb(251, 106, 80);
+    text-decoration: none;
+    font-size: 10pt;
+}
+.contactus_home_slash .slash{
+    padding-left: 40px;
+    padding-right:40px;
+    margin-bottom: 100px;
+}
+.contactus_home_slash p{
+    font-family:'Montserrat', sans-serif;
+    color: #bab4ac;
+    font-size: 10pt;
+}
+.contactus_contactus, .contactus_horario, .contactus_section3_contenedor{
+    display: flex;
+    flex-direction: column;
+    font-family:'Montserrat', sans-serif;
+}
+.contactus_contactus h3, .contactus_horario h3, .contactus_comentario h3{
+font-size: 20pt;
+font-weight: 400;
+margin-bottom: 10px;
+}
+.color{
+    color: rgb(251, 106, 80);
+}
+.contactus_contactus p, .dias_horario{
+    width: 55%;
+    margin: 5px 0;
+}
+.espaciado, .dias_horario{
+    line-height:150%;
+    
+}
+.contactus_contactus a{
+    text-decoration: none;
+    color: rgb(251, 106, 80);
+    font-size: 11pt;
+
+}
+.espaciado2{
+    padding-top: 20px;
+}
+.espaciado3, .llamanos{
+    padding-top: 20px ;
+}
+.contactus_reserva{
+    display: flex;
+    flex-direction: row;
+}
+.reservacion_boton{
+background-color:rgb(251, 106, 80);
+padding: 15px 20px;
+width: 70%;
+border-radius: 3px;
+margin-top: 40px;
+overflow: hidden;
+text-align: center;
+}
+.reservacion_boton a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+.contactus_comentario {
+    width: 40%;
+    margin-left: -47px;
+    margin-right: 110px;
+}
+.contactus_numero {
+    padding-bottom: 10px ;
+    margin-top: 10px;
+
+}
+.contactus_horario{
+    margin-left: 20%;
+}
+.contactus_reserva{
+    padding-bottom: 100px;
+}
+.contactus_section3_contenedor{
+padding: 110px;
+padding-left: 220px;
+width: 50%;
+}
+.contactus_p1{
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+.contactus_p2{
+    line-height:150%;
+
+}
+.contactus_section3_contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+}
+.contactus_caja_datos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    height: 50px;
+}
+.contactus_contenedor_comentario{
+    font-family:'Montserrat', sans-serif;
+    
+}
+.contactus_boton_enviar a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    margin-left: 55px;
+}
+.contactus_boton_enviar{
+    background-color:rgb(251, 106, 80);
+    padding: 15px 15px;
+    width: 40%;
+    border-radius: 3px;
+    margin-top: 40px;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Estilos del menu */
+/* Estilos para banners */
+
+.banner-sushi{
+    background-image: url(../images/sushi.webp);
+    padding: 30px 0;
+    background-size: 100% auto; 
+    background-repeat: no-repeat;
+    background-position: center center;}
+.contenedor-banner{
+    width: 30%;
+    margin: auto;
+    }
+.banner-sushi h2{
+ text-align: center;
+ font-size: 60px;
+ color: white; 
+ font-family: 'Montserrat', sans-serif;
+letter-spacing: 2px;
+ }
+     .banner-bebidas{
+    background-image: url(../images/bebidas.webp);
+    padding: 30px 0;
+    background-size: 100% auto; 
+    background-repeat: no-repeat;
+    background-position: center center;}
+    .banner-bebidas h2{
+    text-align: center;
+    font-size: 60px;
+    color: white; 
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    }
+    .banner-comida h2{
+    text-align: center;
+    font-size: 60px;
+    color: white; 
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    }
+     .banner-comida{
+    background-image: url(../images/comida.webp);
+    padding: 30px 0;
+    background-size: 100% auto; 
+    background-repeat: no-repeat;
+    background-position: center center;}
+
+    .banner-postres h2{
+        text-align: center;
+        font-size: 60px;
+        color: white; 
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 2px;
+        }
+    .banner-postres{
+        background-image: url(../images/Copia\ de\ banner\ postres.webp);
+        padding: 30px 0;
+        background-size: 100% auto; 
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .banner-galeria h2{
+        text-align: center;
+        font-size: 60px;
+        color: white; 
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 2px;
+        }
+
+    .texto-superpuesto {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+      }
+      
+      .texto-superpuesto h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+      }
+      
+      .texto-superpuesto p {
+        font-size: 1.2rem;
+      }
+
+
+    .banner-galeria {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+      }
+      
+      .banner-galeria video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+   /* Estilos para menu */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    }
+
+.menu-item {
+    width: calc(50% - 5px); 
+    display: flex;
+    justify-content: space-between;
+   padding: 30px 96px;
+   box-sizing: border-box;
+ margin-bottom: 5px;
+}
+
+.menu-item-details {
+    flex: 1;
+   
+
+}
+
+.menu-item h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu-item p {
+    margin: 3px ;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.menu-item-price {
+    font-size: 1.1rem;
+    color:rgb(253, 149, 133);
+    font-family: 'Literata', serif;
+}
+
+/* Estilos para img menu inicial */
+.home_section2 {
+    padding: 100px 0 100px;
+}
+.menu_contenedor-tarjetas{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.menu_tarjeta{
+    text-align: center;
+    width: 50%;
+}
+.menu_tarjeta h5{
+    font-family: 'Literata', serif;
+    font-size: 15pt; 
+    color: rgb(251, 106, 80);
+    margin-bottom: 16px;
+}
+.menu_tarjeta p{
+    font-family: 'Montserrat', sans-serif;
+    width: 80%; 
+    margin: auto;
+     
+}
+.menu_foto1 {
+    height: 800px;
+    width: 33.3%;
+    background-size: cover;
+    overflow: hidden;
+}
+.menu_section3{
+    padding-bottom: 400px;
+}
+.menu_foto1 img{
+    height: 900px;
+}
+.menu_foto1 img:hover{
+    filter: sepia(60%);
+    transition: 0.4s;
+}
+.menu_foto2 {
+    height: 800px;
+    width: 33.3%;
+    background-size: cover;
+    text-align: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.menu_foto2 img{
+    height: 900px;
+}
+.menu_foto2 img:hover{
+    filter: sepia(60%);
+    transition: 0.4s;
+}
+.menu_foto3 {
+    height: 800px;
+    width: 33.3%;
+    background-size: cover;
+    text-align: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.menu_foto4{
+    height: 800px;
+    width: 33.3%;
+    background-size: cover;
+    text-align: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.menu_foto4 img{
+    height: 900px;
+}
+.menu_foto4 img:hover{
+    filter: sepia(60%);
+    transition: 0.4s;
+}
+.menu_foto3 img{
+    height: 900px;
+}
+.menu_foto3 img:hover{
+    filter: sepia(60%);
+    transition: 0.4s;
+}
+.menu_contenedor_fila{
+    display: flex;
+    flex-direction: row;
+    margin-top: -400px;
+    position: relative;
+    
+}
+.menu_contenedor_fila a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family:'Montserrat', sans-serif;
+    font-size: 36pt;
+    width: 33%;
+    margin: auto;
+    text-align: center;
+    font-weight: 800;
+}
+.menu_tarjeta i {
+    font-size: 60px;
+    margin-bottom: 40px;
+    color:  rgb(251, 106, 80);
+}
+.menu_tarjeta i:hover {
+    color:  rgb(174, 110, 99);
+    transition: 0.4s;
+}
+
+/* galeria*/
+.gallery2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+}
+
+.gallery2-item {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.gallery2-item img {
+    width: 100%;
+    transition: transform 0.3s;
+}
+
+.gallery2-item:hover img {
+    transform: scale(1.1);
+}
+.texto-galeria h3{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(13, 12, 12); 
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+.texto-galeria p{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(13, 12, 12); 
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+
+/* Estilos del footer */
+.footer {
+    background-color: #2e3732;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.contenedor {
+    margin: 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.seccion {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.titulo-footer1 {
+    font-family: 'Literata', serif;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.texto-footer1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.texto-icono {
+    color: #fd6850;
+    transition: color 0.3s;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+
+}
+
+.telefono, .correo {
+    color: white;
+    transition: color 0.3s;
+}
+
+.texto-icono:hover, .telefono:hover, .correo:hover {
+    color: #fd6850;
+}
+
+.footer2 {
+    background-color: #1b201d;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.contenedor2 {
+    margin: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto-footer2 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.redes i {
+    font-size: 13px;
+    color: white;
+    margin-left: 12px;
+    transition: color 0.3s;
+}
+
+.redes i:hover {
+    color: #f2d9ba;
+}
+

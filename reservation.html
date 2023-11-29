@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>RESERVATION | Viva La Vida</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Página para reservar una o varias mesas en el restaurante de comida japonesa, Viva la Vida">
+    <meta name="author" content="Jenny Russi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo_viva_la_vida.ico"
+    type="imae/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/a85a1c2d04.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200;0,7..72,300;0,7..72,400;0,7..72,500;0,7..72,600;0,7..72,700;0,7..72,800;0,7..72,900;1,7..72,300;1,7..72,400;1,7..72,500;1,7..72,600;1,7..72,700&family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="franja-superior">
+        <div class="ubicacion">
+            <p><i class="fa-solid fa-location-dot"></i> Autopista Nte. #114-44, Bogotá</p>
+        </div>
+        <div class="contacto">
+            <p><i class="fa-solid fa-phone"></i> Teléfono: 320 767 2766</p>
+        </div>
+        <div class="horario">
+            <p><i class="fa-regular fa-clock"></i> Lunes a Domingo, 12:00 p.m. - 10:00 p.m.</p>
+        </div>
+        <div class="busqueda">
+            <input type="text" placeholder="Buscar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="redes-sociales">
+            <a href="https://www.instagram.com/vivalavidabog/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/vivalavidabog/?_rdc=2&_rdr"><i class="fab fa-facebook-f"></i></a>
+        </div>
+    </header>
+    <header class="segundo-encabezado">
+        <h1 class="titulo-viva">VIVA LA VIDA</h1>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li>
+                <a href="menu.html">MENU&#9662;</a>
+                <ul class="dropdown">
+                    <li><a href="barra.html">SUSHI</a></li>
+                    <li><a href="comida.html">COMIDA</a></li>
+                    <li><a href="bebidas.html">BEBIDAS</a></li>
+                    <li><a href="postres.html">POSTRES</a></li>
+                </ul>
+            </li>
+            <li><a href="galeria.html">GALERIA</a></li>
+            <li><a href="reservation.html">RESERVAS</a></li>
+            <li><a href="contact.html">CONTACTOS</a></li>
+        </ul>
+      </header>
+</header>
+
+<hr class="reservas-linea-inicio">
+<nav class="reservas-barra-navegacion2">
+    <ul class="reservas-menu-lista">
+        <li class="reservas-menu-item nosotros-item-home"><a href="#">Inicio</a></li>
+        <li class="reservas-menu-item nosotros-separador">/</li>
+        <li class="reservas-menu-item nosotros-item-about"><a href="#">Reservas</a></li>
+    </ul>
+</nav>
+
+<div class="reservas-contenedor">
+    <h2 class="reservas-titulo">Reserva tu mesa</h2>
+    <p class="reservas-parrafo-descubre">¡Descubre Viva la Vida, el destino perfecto para cualquier ocasión acompañada de una experiencia gastronómica excepcional!</p>
+    <p class="reservas-parrafo">Desde almuerzos de negocios hasta cenas familiares, aniversarios románticos o eventos especiales, garantizamos que nuestras mesas y ambiente estarán a la altura de la ocasión. Te invitamos a explorar la autenticidad de nuestra cocina japonesa en un entorno acogedor. Haz tu reserva ahora y permítenos llevar tu paladar en un inolvidable viaje culinario.</p>
+    <div class="reservas-mesas-completas">
+            <div alt="Mesa número uno, para dos personas" class="reserva-mesa1"></div>
+        <div alt="Mesa número dos, para seis personas" class="reserva-mesa2"></div>
+        <div alt="Mesa número tres, para dos personas" class="reserva-mesa3"></div>
+        <div alt="Mesa número cuatro, para dos personas" class="reserva-mesa4"></div>
+        <div alt="Mesa número cinco, para dos personas" class="reserva-mesa5"></div>
+        <div alt="Mesa número seis, para seis personas" class="reserva-mesa6"></div>
+        <div alt="Mesa número siete, para dos personas" class="reserva-mesa7"></div>
+        <div alt="Mesa número ocho, para dos personas" class="reserva-mesa8"></div>
+        <div alt="Mesa número nueve, para cuatro personas" class="reserva-mesa9"></div>
+        <div alt="Mesa número diez, para cuatro personas" class="reserva-mesa10"></div>
+    </div>
+    <h3 class="reservas-parrafo-subtitulo">Estamos aquí para responder a todas tus preguntas y necesidades, sin importar la hora del día.</h3>
+    <p class="reservas-parrafo-libre">Siéntete libre de comunicarte con nosotros a través del número 320 767 2766 o completando el formulario de contacto. Nos comunicaremos contigo tan pronto como sea posible.</p>
+    <form class="reservas-formulario">
+      <div class="reservas-inputs">
+        <div class="reservas-input">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="reservas-input">
+          <label for="celular">Número de celular</label>
+          <input type="tel" id="celular" name="celular" required>
+        </div>
+      </div>
+      <div class="reservas-escribenos">
+        <label for="comentarios">Escríbenos</label>
+        <textarea id="comentarios" name="comentarios" rows="4" required></textarea>
+      </div>
+      <button class="reservas-boton" type="submit">Enviar</button>
+    </form>
+  </div>
+
+
+<footer class="footer">
+    <div class="contenedor">
+        <div class="seccion">
+            <h2 class="titulo-footer1">Conócenos</h2>
+            <p class="texto-footer1">Desde los delicados sabores del sushi artesanal hasta la calidez reconfortante de los platos tradicionales, nuestra pasión por la auténtica cocina japonesa se refleja en cada bocado. Con años de experiencia en la creación de sabores auténticos y un ambiente que captura la elegancia de Japón, te invitamos a un viaje culinario que celebra la riqueza de la cultura gastronómica japonesa.</p>
+        </div>
+        <div class="seccion">
+            <h2 class="titulo-footer1">Contáctanos</h2>
+            <div class="info">
+                <p class="texto-icono"><i class="fas fa-location-dot"></i> Autopista Nte. #114-44, Bogotá</p>
+                <p class="texto-icono"><i class="fas fa-phone"></i> <span class="telefono">320 767 2766</span></p>
+                <p class="texto-icono"><i class="far fa-clock"></i> Lunes a Domingo, 12:00 p.m. - 10:00 p.m.</p>
+                <p class="texto-icono"><i class="fas fa-envelope"></i> <span class="correo">info@vivalavida.org</span></p>
+            </div>
+        </div>
+        <div class="seccion">
+            <h2 class="titulo-footer1">Instagram</h2>
+            <p class="texto-footer1">Síguenos en Instagram para descubrir los sabores visuales de nuestro mundo culinario. Mantente al día con nuestras delicias japonesas y entérate de las últimas novedades. ¡Conéctate con nosotros y comparte la pasión por la auténtica cocina japonesa! #vivalavidabog</p>
+        </div>
+    </div>
+</footer>
+
+<footer class="footer2">
+    <div class="contenedor2">
+        <div class="derechos">
+            <p class="texto-footer2">® 2021 DERECHOS RESERVADOS | Jenny Russi | Laura Agudelo | Laura Cardenas</p>
+        </div>
+        <div class="redes">
+            <a href="https://www.instagram.com/vivalavidabog/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/vivalavidabog/?_rdc=2&_rdr"><i class="fab fa-facebook-f"></i></a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
